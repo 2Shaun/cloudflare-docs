@@ -49,6 +49,12 @@ iptables -A INPUT -p tcp --dport http,https -j DROP
 ip6tables -A INPUT -p tcp --dport http,https -j DROP
 ```
 
+{{<Aside type="warning" header="Important">}}
+
+Iptables rulesets do not persist through reboots by default.
+
+{{<Aside type="warning" header="Important">}}
+
 For more specific guidance, contact your hosting provider or website administrator.
 
 ### Additional recommendations
